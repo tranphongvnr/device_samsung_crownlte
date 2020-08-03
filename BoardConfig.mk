@@ -61,7 +61,7 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
-
+TW_DEVICE_VERSION := SKy-VNR-1.0
 # Include
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/crownlte/include
 
@@ -75,7 +75,7 @@ SHRP_EDL_MODE := 0
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
-SHRP_FLASH := 1
+SHRP_FLASH := 0
 SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
 SHRP_FONP_2 := 
@@ -91,4 +91,5 @@ SHRP_EXPRESS := true
 SHRP_OFFICIAL := true
 SHRP_DARK := true
 SHRP_ALT_REBOOT := true
-
+SHRP_NOTCH := false
+SHRP_NO_SAR_AUTOMOUNT := true
